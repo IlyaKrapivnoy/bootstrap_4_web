@@ -40,15 +40,62 @@ body {
 }
 
 /*============= CAROUSEL =============*/
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+}
+.carousel-inner {
+  max-height: 38rem !important;
 
-
+}
 
 /*---Change Carousel Transition Speed --*/
-
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.1s ease;
+}
 
 /*-- Carousel Content --*/
-
-
+.carousel-caption {
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+.bg-custom {
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
+  border-radius: 1rem;
+}
+.carousel-caption h2 {
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+}
+.carousel-caption h4 {
+  letter-spacing: .1rem;
+  text-shadow: .1rem .1rem .3rem rgba(0,0,0,1);
+}
+.border-primary {
+  border-top: .2rem solid #4981b3!important;
+}
+.btn-general {
+  border-radius: 0;
+  text-transform: lowercase;
+  letter-spacing: .1rem;
+  border-width: medium;
+}
+.btn-info {
+  background-color: #4981b3;
+  border: .05rem solid #4981b3;
+}
+.btn-info:hover {
+  background-color: #68a0d2!important;
+  border: .05rem solid #68a0d2!important;
+}
+.btn-danger {
+  background-color: #AC2615;
+  border: .05rem solid #AC2615;
+}
 
 /*===== FIXED BACKGROUND IMG =====*/
 
