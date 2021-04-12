@@ -97,6 +97,10 @@ body {
   border: .05rem solid #AC2615;
 }
 
+.story-title h4 {
+  white-space: normal!important;
+}
+
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed-background {
