@@ -159,18 +159,34 @@ footer .svg-inline--fa:hover {
 }
 
 /*============= SOCKET =============*/
-
+.socket {
+  background-color: #222;
+  border-top: .1rem solid #4981b3;
+}
 
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
+  .carousel-caption h2 {
+    letter-spacing: .2rem;
+  }
+  .carousel-caption h4 {
+    letter-spacing: .1rem;
+  }
 }
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  .carousel-caption h2 {
+    letter-spacing: .2rem;
+  }
+  .carousel-caption h4 {
+    letter-spacing: .1rem;
+  }
+  .btn-lg {
+    font-size: .95rem;
+  }
 }
 
 
